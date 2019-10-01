@@ -11,9 +11,7 @@ data = load("sue_ann_koay_data.jld")
 N1 = data["neuralF"][:,1]  # Fluorescence of neuron 1 as a function of frame number
 # Frames are at 15 frames/sec
 Lcue = data["LcueFrame"];  # Frame numbers at which a Left tower appeared
-# Lcue = convert(Array{Int64,1}, Lcue[:])
 Rcue = data["RcueFrame"];  # Frame numbers at which a Right tower appeared
-# Rcue = convert(Array{Int64,1}, Rcue[:])
 
 
 figure(1); clf();
