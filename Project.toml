@@ -1,0 +1,10 @@
+name = "neu314"
+uuid = "abe612b2-f865-11e9-3ce0-93b236da2416"
+authors = ["Brian DePasquale <depasquale@princeton.edu>"]
+version = "0.1.0"
+
+[deps]
+JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"

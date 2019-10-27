@@ -1,6 +1,4 @@
 
-using Printf
-
 
 """
     tbin(tvector, t)
@@ -331,11 +329,6 @@ function remove_ytick_labels(ax=nothing)
     return
 end
 
-
-
-
-
-using PyCall
 
 
 """
